@@ -1,0 +1,28 @@
+{
+  "name": "redux-action-utils",
+  "version": "1.0.0",
+  "description": "Factory functions for reducing action creator boilerplate",
+  "main": "./lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insin/redux-action-utils.git"
+  },
+  "keywords": [
+    "redux",
+    "action",
+    "creators"
+  ],
+  "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/insin/redux-action-utils/issues"
+  },
+  "homepage": "https://github.com/insin/redux-action-utils#readme"
+}
