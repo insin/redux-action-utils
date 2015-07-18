@@ -1,6 +1,6 @@
 {
   "name": "redux-action-utils",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Factory functions for reducing action creator boilerplate",
   "main": "./lib/index.js",
   "dependencies": {},
