@@ -8,7 +8,7 @@ npm install --save redux-action-utils
 
 ## Before
 
-```
+```js
 var types = require('./action-types')
 
 function addLesson() {
