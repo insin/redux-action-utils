@@ -1,3 +1,19 @@
+# DEPRECATED
+
+ES6 arrow functions with implicit returns, argument destructuring and object literal enhancements make it easy to keep your action creators compact without helper functions.
+
+## ES6 Alternative
+
+```js
+import types from './action-types'
+
+export let addLesson = () => ({type: types.ADD_LESSON})
+
+export let importLessons = (lessons) => ({type: types.ADD_LESSON, lessons})
+
+export let updateLesson = ({id, update}) => ({type: types.ADD_LESSON, id, update})
+```
+
 # Redux Action Utils
 
 Factory functions for reducing action creator boilerplate.
@@ -8,7 +24,7 @@ npm install --save redux-action-utils
 
 ## Before
 
-```
+```js
 var types = require('./action-types')
 
 function addLesson() {
