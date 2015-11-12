@@ -9,9 +9,9 @@ import types from './action-types'
 
 export let addLesson = () => ({type: types.ADD_LESSON})
 
-export let importLessons = (lessons) => ({type: types.ADD_LESSON, lessons})
+export let importLessons = (lessons) => ({type: types.IMPORT_LESSON, lessons})
 
-export let updateLesson = ({id, update}) => ({type: types.ADD_LESSON, id, update})
+export let updateLesson = ({id, update}) => ({type: types.UPDATE_LESSON, id, update})
 ```
 
 # Redux Action Utils
